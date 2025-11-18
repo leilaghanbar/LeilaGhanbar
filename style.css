@@ -34,3 +34,11 @@ nav a:hover {
   text-decoration: underline;
   transform: translateY(-1px);
 }
+.container {
+  max-width: 800px;      /* controls the box width */
+  margin: 0 auto;        /* centers it horizontally */
+  padding: 20px 30px;    /* space inside the box */
+  background: white;     /* white box */
+  border-radius: 12px;   /* rounded corners */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08); /* soft shadow */
+}
