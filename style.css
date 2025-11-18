@@ -8,13 +8,19 @@ body {
 }
 
 /* Navigation bar style */
+nav {
+  text-aligned: center;
+  margin-bottom: 30px;
+}
+
+/* Navigation Links */
 nav a {
   margin: 10px;
   text-decoration: none;
-  color: #0073e6;
+  color: #0066cc;
   font-weight: 600;
 }
-
+/* Hover effect*/
 nav a:hover {
-  text-decoration: underline;
+  font-weight: 800;
 }
