@@ -9,19 +9,28 @@ body {
 
 /* Navigation bar style */
 nav {
-  text-aligned: center;
+  display: flex;
+  justify-content: center; /* centers yje lonks horizontally */
+  align-items: center; /* centers vertically if nav gets taller */
+  gap: 18px;  /* space between links */
   margin-bottom: 30px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Navigation Links */
+/* Navigation links */
 nav a {
-  margin: 10px;
+  display: inline-block;   /* ensures font-weight change applies consistently */
+  padding: 6px 8px;
   text-decoration: none;
-  color: #0066cc;
+  color: #0073e6;
   font-weight: 600;
+  transition: font-weight 0.12s ease, transform 0.12s ease;
 }
 /* Hover effect*/
 nav a:hover {
   font-weight: 1500;
   text-decoration: underline;
+  transform: translateY(-1px);
 }
