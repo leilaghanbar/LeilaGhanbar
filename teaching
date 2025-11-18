@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - Leila Ghanbar</title>
+    <style>
+        body { font-family: Arial, san-serif; margin: 40px; background-color: #fafafa;}
+        nav a { margin: 10px; text-decoration: none; color: #0073e6; font-weight: bold;}
+        nav a:hover { text-decoration: underline;}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about-me.html">About Me - Leila Ghanbar</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+<h1> Teaching </h1>
+<p> I have been working at BRunel University of London since May 2022. During this time, I have taught, lead and reviewed few modules</p>
+<ul> 
+    <li> Lead and Taught "Logic and Computation": The Theory behind computation</li>
+    <li> Taught "Quantitative Data Analysis": EDA and statistical analysis of data</li>
+    <li> Review: "Modern Data": Big data analysis and visualisation</li>
+</ul>
+<p> Prior to joining Brunel. I was a visiting lecturer at Brunel Pathway College, where I taught First year students:</p>
+<ul>
+    <li> Logic and Computation</li>
+    <li>Information, Communication and Technology</li>
+</ul>
+<p> Aside from my teaching duties, I have worked as the Teaching Assistant Manager in Computer Science Department since 2023.
+    during this time, I have managed the semi-automatic allocation program, managed teaching Assistants both in undergraduate and postgraduate degrees.
+</p>
+</body>
+
+
+</html>
+
