@@ -10,22 +10,22 @@ body {
   font-style: normal;
   line-height: 2;
   margin: 40px;
-  background-color: #ffffff;
+  background-color: #DFEBF2;
 }
 
 h1{
   font-family: "Orbitron", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #c35ac3;
+  color: 	#245987;
   margin-bottom: 15px;
 }
 
 /* Navigation bar style */
 nav {
-  font-family: "Macondo", cursive;
-  font-weight: 5;
-  font-size: x-large;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 10;
+  font-size: 24px;
   font-style: normal;
   display: flex;
   justify-content: center; /* centers yje lonks horizontally */
@@ -42,7 +42,7 @@ nav a {
   display: inline-block;   /* ensures font-weight change applies consistently */
   padding: 6px 8px;
   text-decoration: none;
-  color: #173ec0;
+  color: #245987;
   font-weight: 600;
   transition: font-weight 0.12s ease, transform 0.12s ease;
 }
@@ -57,10 +57,10 @@ nav a:hover {
   max-width: 70%;      /* controls the box width */
   margin: 0 auto 30px auto;      /* centers it horizontally */
   padding: 20px 30px;    /* space inside the box */
-  background: #e2ebf3;     /* white box */
+  background: 	#F5FFFA;     /* white box */
   border-radius: 12px;   /* rounded corners */
   box-shadow: 0 2px 10px rgba(0,0,0,0.08); /* soft shadow */
-  border-left: 6px solid #173ec0;
+  border-left: 6px solid 	#8c295a;
   margin-bottom: 20px;
 }
 /* Review stars at the top */
@@ -85,7 +85,7 @@ nav a:hover {
 /* Rating text */
 .stars .score {
   font-size: 20px;
-  color: #c35ac3;
+  color: #245987;
   margin-left: 10px;
   font-weight: 600;
 }
@@ -124,10 +124,9 @@ nav a:hover {
   width: 60%;
   max-width: 70%;
   min-height: 130px;
-  background: white;
+  background: #adc1d7;
   border-left: #c35ac3;
   border-radius: 14px;
-  /* reserve extra space at the bottom so the absolute-positioned name won't overlap long text */
   padding: 20px 25px 52px;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -148,7 +147,7 @@ nav a:hover {
 }
 /* Navigation Buttons */
 .nav-btn {
-  background: #c35ac3;   
+  background: #8c295a;   
   color: white;
   border: none;
   font-size: 28px;
@@ -160,7 +159,7 @@ nav a:hover {
 }
 
 .nav-btn:hover {
-  background: #944594;
+  background: #8c295a;
   transform: scale(1.1);
 }
 
@@ -328,7 +327,7 @@ nav a:hover {
 .bar-fill {
   width: 0;
   height: 100%;
-  background: #c35ac3;   /* your earthy accent */
+  background: #245987;   /* your earthy accent */
   border-radius: 10px;
   transition: width 1s ease-out;
 }
